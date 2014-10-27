@@ -1,0 +1,109 @@
+/*Style Cleaning*/
+ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	color: #3f3f3f;
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.pagejump{
+	position: absolute;
+	height: 0;
+}
+
+.column1{
+	width: 60%;
+	min-width: 768px;
+	margin: 0 auto;
+}
+
+/*.Navigation Bar sTyling*/
+.navigation{
+	background-color: #3f3f3f;
+	font-size: 18px;
+	font-weight: 100;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	top: 0;
+}
+
+.navigation a{
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-ms-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+	transition: color 0.5s ease;
+	color: grey;
+}
+
+.navigation a:hover{
+	color: white;
+}
+
+.navigation li{
+	display: inline-block;
+	margin-right: 0.75em;
+}
+
+.navigation li:last-child{
+	margin-right: 2em;
+}
+
+/*About Me Section Styling*/
+.aboutme{
+	padding-top: 5em;
+	text-align: center;
+	height: 11em;
+}
+
+.aboutme h1{
+	font-weight: 900;
+	font-style: italic;
+	text-shadow: 1px 2px orange;
+	font-size: 2.5em;
+	margin-bottom: 0em;
+}
+
+.works{
+	background-color: #3f3f3f;
+}
+
+ul.work-grid li{
+	float: left;
+	height: 15em;
+	width: 23%;
+	margin: 1%;
+	background-color: grey;
+}
+
+ul.work-grid li.wg1{
+	background-image: url(img/screen_vox.jpg);
+	background-size: cover;
+}
+
+ul.work-grid li.wg2{
+	background-image: url(img/screen_karma.jpg);
+	background-size: cover;
+}
+
+ul.work-grid li{
+	-webkit-transition: opacity 0.25s ease;
+	-moz-transition: opacity 0.25s ease;
+	-ms-transition: opacity 0.25s ease;
+	-o-transition: opacity 0.25s ease;
+	transition: opacity 0.25s ease;
+}
+
+ul.work-grid li:hover{
+	opacity: 0.7;
+}
